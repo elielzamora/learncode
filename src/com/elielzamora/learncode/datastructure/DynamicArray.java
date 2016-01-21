@@ -1,4 +1,4 @@
-package com.elielzamora.learncode.sort;
+package com.elielzamora.learncode.datastructure;
 /**
  * verison 1 of implementing a dynamic array
  * @author ezamorapardo2586

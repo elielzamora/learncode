@@ -1,4 +1,4 @@
-package com.elielzamora.learncode.sort;
+package com.elielzamora.learncode.datastructure;
 
 public class IntHeap {
 	public int[] heap;

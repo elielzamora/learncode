@@ -1,6 +1,6 @@
-package com.elielzamora.learncode.sort;
+package com.elielzamora.learncode.geo;
 
-public class IsIntArraySorted {
+public class GeometricAlgorithms {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

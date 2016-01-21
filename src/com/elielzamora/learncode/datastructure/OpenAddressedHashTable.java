@@ -1,6 +1,6 @@
-package com.elielzamora.learncode.sort;
+package com.elielzamora.learncode.datastructure;
 
-public class Heap <T> {
+public class OpenAddressedHashTable {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
