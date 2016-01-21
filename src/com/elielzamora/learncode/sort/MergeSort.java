@@ -1,3 +1,7 @@
+/**
+ * https://en.wikipedia.org/wiki/Merge_sort
+ * www.algorithmist.com/index.php/Merge_sort
+ */
 package com.elielzamora.learncode.sort;
 
 public class MergeSort {
