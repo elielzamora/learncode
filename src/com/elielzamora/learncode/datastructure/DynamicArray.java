@@ -14,23 +14,24 @@ public class DynamicArray <Item> {
 	/**
 	 * 
 	 */
-	private int size;
+	private int pointer = 0;
 	/**
 	 * 
 	 */
-	private int next;
 	public DynamicArray(int i){
-		//Item[] item = (Item[]) new Object[i];
-		this.item = item;
-		
+		this.item = new Object[i];
 	}
 	public DynamicArray(Item[] item){
 		this.item = item;
 	}
 	public void add(Item item){
-		this.ensureSpace(size+1);
-		this.item[size] = item
+		this.ensureSpace(this.size() + 1);
+		this.item[pointer + 1] = item;
 		//if
+	}
+	private void ensureSpace(int i) {
+		// TODO Auto-generated method stub
+		
 	}
 	public Item get(int i){
 		if(inArray(i)){
@@ -40,12 +41,7 @@ public class DynamicArray <Item> {
 			return null;
 		}
 	}
-	private void halveSize(){
-		
-	}
-	private void doubleSize(){
-		
-	}
+
 	private boolean inArray(int i){
 		int size = this.getSize();
 		if (i < size) return true;
@@ -54,8 +50,11 @@ public class DynamicArray <Item> {
 	private int getSize(){
 		return this.item.length;
 	}
+	public static void main(String... args){
+		
+	}
 }
-/**
+/**		//Item[] item = (Item[]) new Object[i];
 		 *  alternate way found to create array list
 		 *  java.lang.reflect.Array.newInstance()
 			public MyArrayList(Class<E> elementType, int size){
