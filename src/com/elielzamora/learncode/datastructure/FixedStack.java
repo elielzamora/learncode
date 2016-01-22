@@ -3,7 +3,7 @@
  * http://opensourceforgeeks.blogspot.ca
  * /2013/05/interview-question-10-how-arraylist.html
  * 
- * useful insight, took wrong approch when first creating 
+ * useful insight, took wrong approach when first creating 
  * dynamic array
  */
 package com.elielzamora.learncode.datastructure;
