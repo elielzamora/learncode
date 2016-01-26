@@ -31,7 +31,7 @@ public class FixedStack <Item> {
 			this.array[pointer] = item;
 		}else{
 			//error do nothing
-			//throw new Exception
+			//throw new StackOverflowException
 		}
 	}
 	@SuppressWarnings("unchecked")

@@ -3,20 +3,6 @@ import com.learncode.datastructure.list.Node;
 public class LinkedList <Item>{
 	Node<Item> head;
 	
-//	private class Node <Item>{
-//		private Item item;
-//		private Node next;
-//		public Node(Item item, Node node){
-//			this.item = item;
-//			this.next = node;
-//		}
-//		public Item getItem(){ return this.item; }
-//		public void setItem(Item item){ this.item = item; }
-//		public Node next(){ return this.next; }
-//		public void setNext(Node node){ this.next = node;}
-//		public boolean hasNext(){return this.next == null? false: true;}
-//	}
-
 	public LinkedList(Item i){
 		this.head = new Node<Item>(i, null);
 	}
